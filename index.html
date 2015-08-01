@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Story</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div>
+    <span id="auth-header">How do you want to log in?</span>
+  </div>
+  <form onSubmit="javascript:dologin()">
+    <input type="email" name="email" required="true" placeholder="email">
+    <input type="password" name="password" required="true" placeholder="password">
+    <input type="submit" value="Log In">
+  </form>
+  <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
